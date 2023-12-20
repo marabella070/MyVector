@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "C:\\mingw32\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"main.cpp",
+				"-o",
+				"c:\\Users\\marab\\projects\\vector\\bin\\${fileBasenameNoExtension}.exe",
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"detail": "compiler: C:\\mingw32\\bin\\g++.exe"
+		}
+	]
+}
